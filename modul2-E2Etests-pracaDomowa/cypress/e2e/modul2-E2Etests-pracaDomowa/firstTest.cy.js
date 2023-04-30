@@ -13,8 +13,11 @@ describe("Login and Logout on site", () => {
     cy.get(".css-7afvtf").click();
     cy.get(":nth-child(9) > .css-bve2vl").click();
   });
+  
 
   it("Znajdź pole email i wpisz adres 2", () => {
     cy.login_logout("testowyqa@qa.team", "QA!automation-1");
   });
 });
+
+
